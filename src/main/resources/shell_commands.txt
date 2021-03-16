@@ -23,3 +23,7 @@ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic winter20
 
 bin/kafka-topics.sh --zookeeper quickstart.cloudera:2181 --create --replication-factor 1 --partitions 1 --topic winter2020_iuri_trip
 
+schemas: http://localhost:8081/
+confluent contol center: http://localhost:8081/
+hue:quickstart.cloudera:8888
+yarn:quickstart.cloudera:8088
